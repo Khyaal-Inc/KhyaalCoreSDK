@@ -1,0 +1,24 @@
+// swift-tools-version:5.9
+import PackageDescription
+
+let package = Package(
+    name: "KhyaalCoreSDK_iOS",
+    platforms: [
+        .iOS(.v15),
+        .macOS(.v12)
+    ],
+    products: [
+        // This exposes your framework as a library to be imported by users.
+        .library(
+            name: "KhyaalCoreSDK_iOS",
+            targets: ["KhyaalCoreSDK"]
+        )
+    ],
+    targets: [
+        .binaryTarget(
+            name: "KhyaalCoreSDK_iOS",
+            url: "https://github.com/Khyaal-Inc/KhyaalCoreSDK-iOS/releases/download/sdks/Pulse_iOS_v1.0.8.xcframework.zip",
+            checksum: "50c0bb8a84152ac6877e6b9f06eaf8f1126f110afa583c1f0b181edcc1028c8c"
+        )
+    ]
+)
