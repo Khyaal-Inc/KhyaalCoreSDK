@@ -1,0 +1,20 @@
+# .gitignore
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Xcode
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcuserdata/
+*.xcodeproj
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# macOS
+.DS_Store
