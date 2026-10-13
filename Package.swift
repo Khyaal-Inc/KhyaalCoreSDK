@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "KhyaalCoreSDK",
-            url: "https://github.com/Khyaal-Inc/KhyaalCoreSDK/releases/download/1.0.7/KhyaalCoreSDK_v1.0.7.xcframework.zip",
-            checksum: "bdcedfd4669c4afcbc4f74a16ca7c4b170c634a0efa9c32dcdba92dbc3903c36"
+            url: "https://github.com/Khyaal-Inc/KhyaalCoreSDK/releases/download/0.0.0/KhyaalCoreSDK_v0.0.0.xcframework.zip",
+            checksum: "f39f1e2dbcd7bb0d260de3eeaeca6d0143c25511ea32cb9aafb7db8938ae5afd"
         )
     ]
 )
